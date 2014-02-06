@@ -10,6 +10,19 @@ h2 {
 }
 
 p {
-		font-style:oblique;
 		font-family:Verdana;
+}
+
+ul {
+		list-style-type:square;
+}
+
+#title {
+		border-style: dashed;
+		margin: 20px;
+		text-align: center;
+}
+
+p#education {
+	font-style:oblique;
 }
