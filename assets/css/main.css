@@ -2069,8 +2069,8 @@
 	
 		ul img {
 			height: 200px;
-			-webkit-filter: blur(1px);
-			filter: blur(1px);
+			/*-webkit-filter: blur(1px);
+			filter: blur(1px);*/
 
 		}
 		ul.feature-icons {
@@ -2531,6 +2531,25 @@
 	}
 	#wrap {
 	}
+
+/* project img */
+
+#three img {
+    -webkit-filter: blur(1px);
+			filter: blur(1px);
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+#three img:hover {
+    -webkit-filter: blur(0px);
+			filter: blur(0px);
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
 
 /* Header */
 
